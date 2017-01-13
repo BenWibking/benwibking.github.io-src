@@ -20,14 +20,10 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
-
-# Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+LINKS = (("Blandford & Thorne's lecture notes", 'http://www.pmaweb.caltech.edu/Courses/ph136/yr2012/'),
+         ("Hogg's Research (David Hogg)", 'http://hoggresearch.blogspot.com/'),
+         ("Not Even Wrong (Peter Woit)",'http://www.math.columbia.edu/~woit/wordpress/'),
+         ("Azimuth (John Baez)",'https://johncarlosbaez.wordpress.com/'))
 
 DEFAULT_PAGINATION = 10
 
