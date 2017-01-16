@@ -31,3 +31,12 @@ DEFAULT_PAGINATION = 10
 #RELATIVE_URLS = True
 
 TYPOGRIFY = True
+
+THEME = 'crowsfoot'
+EMAIL_ADDRESS = 'ben@wibking.com'
+GITHUB_ADDRESS = 'https://github.com/BenWibking'
+PROFILE_IMAGE_URL = ''
+LICENSE_URL = 'https://creativecommons.org/licenses/by-nc-sa/4.0/'
+LICENSE_NAME = 'CC-BY-NC-SA'
+SHOW_ARTICLE_AUTHOR = False
+
