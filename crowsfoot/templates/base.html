@@ -47,6 +47,12 @@
                 <li{% if p == page %} class="active"{% endif %}><a class="nodec" href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
               {% endfor %}
             {% endif %}
+            <!--categories-->
+            {% if DISPLAY_CATEGORIES_ON_MENU %}
+              {% for cat, null in categories %}
+                <li{% if cat == category %} class="active"{% endif %}><a class="nodec" href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
+              {% endfor %}
+            {% endif %}
             <!-- services icons -->
             {% if EMAIL_ADDRESS %}
               <li><a class="nodec icon-mail-alt" href="mailto:{{ EMAIL_ADDRESS }}"></a></li>

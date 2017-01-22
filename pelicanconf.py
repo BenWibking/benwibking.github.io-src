@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'Ben Wibking'
-SITENAME = u"Ben Wibking's astronomical blog"
+SITENAME = u"Ben Wibking"
 SITEURL = ''
 
 PATH = 'content'
@@ -39,4 +39,8 @@ PROFILE_IMAGE_URL = '/images/LasDamas_lss.png'
 LICENSE_URL = 'https://creativecommons.org/licenses/by-nc-sa/4.0/'
 LICENSE_NAME = 'CC-BY-NC-SA'
 SHOW_ARTICLE_AUTHOR = False
+DISPLAY_CATEGORIES_ON_MENU = True
+
+PLUGIN_PATHS = ['../pelican-plugins']
+PLUGINS = ["render_math"]
 
