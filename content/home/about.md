@@ -10,15 +10,15 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
+    "Radiation magnetohydrodynamics",
+    "Chemical tagging and Galactic abundances",
     "Large-scale structure",
-    "Weak lensing",
-    "Star formation feedback",
-    "Radiation hydrodynamics"
+    "Weak gravitational lensing",
   ]
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "PhD in Astronomy (expected)"
+  course = "PhD in Astronomy"
   institution = "Ohio State University"
   year = 2019
 
@@ -31,4 +31,4 @@ weight = 5
 
 # About Me
 
-I work on applying machine learning to N-body simulations to extract cosmological information from the small scales of both spectroscopic galaxy and weak lensing datasets. I am also interested in star formation feedback and radiation hydrodynamics.
+I work on understanding the distribution of chemical elements produced by massive stars in the Milky Way and analogue galaxies via constrained-transport magnetohydrodynamic (MHD) simulations, as well as implementing methods for radiation transport suitable for exascale computing architectures.  My previous work in cosmology used simulations of structure formation to infer cosmological parameters from galaxy-shear cross-correlations on nonperturbative scales using galaxies from the Baryon Oscillation Spectroscopic Survey.
