@@ -56,7 +56,7 @@ url_source = ""
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-url_custom = [{name = "ADS", url = "https://ui.adsabs.harvard.edu/abs/2019MNRAS.tmp.3123W/abstract"}]
+url_custom = [{name = "ADS", url = "https://ui.adsabs.harvard.edu/abs/2020MNRAS.492.2872W/abstract"}]
 
 # Digital Object Identifier (DOI)
 doi = "10.1093/mnras/stz3423"
